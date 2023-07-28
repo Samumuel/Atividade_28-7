@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a = 80000
+		inteiro b = 200000
+		inteiro anos = 0
+
+		para(a; a < b; anos++){
+			a = a + (a * 0.03) 
+			b = b + (b * 0.015)
+			
+		}
+		escreva(anos)	
+	}
+}
