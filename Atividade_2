@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro base
+    inteiro expoente
+    inteiro x 
+		
+	escreva("Diga a base: ")
+	leia(base)
+	escreva("Agora diga o expoente: ")
+	leia(expoente)
+	x = base
+	
+	para(inteiro i = 1; i < expoente; i++){
+		
+		x = x * base
+
+	 }
+	 escreva(x)
+	}
+}
